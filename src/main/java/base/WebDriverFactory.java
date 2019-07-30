@@ -3,10 +3,7 @@ package base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-
-import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class WebDriverFactory {
@@ -24,7 +21,6 @@ public class WebDriverFactory {
     /**
      * Start browser
      */
-
     static void startDriver() {
         if (driver == null) {
             ChromeOptions options = new ChromeOptions();
@@ -41,16 +37,10 @@ public class WebDriverFactory {
     /**
      * Finishes browser
      */
-
     static void finishDriver() {
         if (driver != null) {
             driver.quit();
             driver = null;
         }
-    }
-
-    public static void await() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.withMessage("Wait");
     }
 }

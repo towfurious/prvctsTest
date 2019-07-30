@@ -17,6 +17,4 @@ public class Page extends LogHelper {
     protected PageChapterOne getPageChapterOne() {
         return pageChapterOne;
     }
-
-
 }
