@@ -1,8 +1,7 @@
 package base.pages;
 
-import base.LogHelper;
 
-public class Page extends LogHelper {
+public class Page {
 
 /*
  This is a Page container.
