@@ -1,6 +1,6 @@
 package base.pages;
 
-import base.WebDriverFactory;
+import base.core.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
