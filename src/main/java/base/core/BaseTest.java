@@ -5,7 +5,7 @@ import base.pages.Page;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-import static base.util.LogHelper.getLogger;
+import static base.core.LogHelper.getLogger;
 
 
 public class BaseTest extends Page {

@@ -3,7 +3,7 @@ import base.core.configuration.TestsConfig;
 import org.testng.annotations.Test;
 
 import static base.core.WebDriverFactory.getDriver;
-import static base.util.LogHelper.getLogger;
+import static base.core.LogHelper.getLogger;
 import static org.testng.Assert.assertEquals;
 
 
